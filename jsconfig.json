@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/local_collection_driver.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/collection.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/connection_options.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/doc_fetcher.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/mongo_driver.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/mongo_utils.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/observe_multiplex.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/oplog_observe_driver.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/oplog_tailing.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/oplog_v2_converter.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/polling_observe_driver.js",
+        "/Users/danieleiudica/.meteor/packages/mongo/2.0.2/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/danieleiudica/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/danieleiudica/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/Users/danieleiudica/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/Users/danieleiudica/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/Users/danieleiudica/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/Users/danieleiudica/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/danieleiudica/.meteor/packages/ecmascript/0.16.9/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/danieleiudica/.meteor/packages/shell-server/0.6.0/web.browser/main.js",
+        "/Users/danieleiudica/.meteor/packages/shell-server/0.6.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/danieleiudica/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/Users/danieleiudica/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/Users/danieleiudica/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/Users/danieleiudica/.meteor/packages/react-meteor-data/3.0.2/web.browser/index.js",
+        "/Users/danieleiudica/.meteor/packages/react-meteor-data/3.0.2/web.browser/suspense/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
