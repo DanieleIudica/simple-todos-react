@@ -4,6 +4,7 @@ export const Task = ({ task, onCheckboxClick, onDeleteClick }) => {
   return (
     <li>
       <input
+        className="checkbox"
         type="checkbox"
         checked={!!task.isChecked}
         onClick={() => onCheckboxClick(task)}

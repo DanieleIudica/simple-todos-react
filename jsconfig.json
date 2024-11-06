@@ -47,6 +47,11 @@
       "meteor/react-meteor-data": [
         "/Users/danieleiudica/.meteor/packages/react-meteor-data/3.0.2/web.browser/index.js",
         "/Users/danieleiudica/.meteor/packages/react-meteor-data/3.0.2/web.browser/suspense/index.js"
+      ],
+      "meteor/accounts-password": [
+        "/Users/danieleiudica/.meteor/packages/accounts-password/3.0.2/web.browser/password_client.js",
+        "/Users/danieleiudica/.meteor/packages/accounts-password/3.0.2/web.browser/email_templates.js",
+        "/Users/danieleiudica/.meteor/packages/accounts-password/3.0.2/web.browser/password_server.js"
       ]
     }
   },
